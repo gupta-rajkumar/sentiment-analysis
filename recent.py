@@ -6,7 +6,7 @@ class RecentTweetAPI:
         self.BEARER_TOKEN = BEARER_TOKEN
 
     def get_tweet(self,keyword):
-        url = f'https://api.twitter.com/2/tweets/search/recent?query={keyword}'#&expansions=geo.place_id&place.fields=geo,id'
+        url = f'https://api.twitter.com/2/tweets/search/recent?query={keyword}'
         headers = {'Authorization': f'Bearer {self.BEARER_TOKEN}'}
         req = requests.get(url,headers=headers,stream=True)
         if req.status_code!=200:
