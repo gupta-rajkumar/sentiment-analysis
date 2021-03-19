@@ -1,6 +1,5 @@
 import requests
 import json
-import secrets
 
 class RecentTweetAPI:
     def __init__(self,BEARER_TOKEN):
