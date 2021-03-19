@@ -3,4 +3,4 @@ A basic sentiment analyzer which takes tweets from the twitterAPI analyzes it an
 
 1. Copy your bearer token.
 2. Open up the terminal and type the following command.
-3. export BEARER_TOKEN=<YOUR BEARER TOKEN>
+3. export BEARER_TOKEN={YOUR BEARER TOKEN}
