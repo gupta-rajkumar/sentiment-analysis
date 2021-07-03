@@ -11,6 +11,6 @@ class RecentTweetAPI:
         req = requests.get(url,headers=headers,stream=True)
         if req.status_code!=200:
             raise Exception(
-            f'The request returned error:{req.status_code} {display_tweet(req)}'
+            f'The request returned error:{req.status_code}'
             )
         return req
